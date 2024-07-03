@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../Downloads/bootstrap-5.3.3-dist 2/css"
+		},
+		{
+			"path": "../../../Downloads/bootstrap-5.3.3-dist 2/js"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "My portfolio project"
+	}
+}
