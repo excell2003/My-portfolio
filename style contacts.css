@@ -364,16 +364,6 @@ flex-direction: row 1;}
   top: -10px; 
 }
 
-.about-btn {
-  container: none;
-  position: relative;
-  top: 0;
-  transition: top ease 0.5s;
-}
-
-.about-btn:hover { 
-    container: none;
-}
 
 
 #main {
@@ -525,3 +515,4 @@ textarea {
 .card:hover .card-img-overlay {
   opacity: 0.54; 
 }
+
