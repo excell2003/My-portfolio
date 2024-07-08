@@ -351,18 +351,19 @@ flex-direction: row 1;}
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 10px;
-  transition: background-color 0.2s ease-in;
+  transition: background-color 0.2s ease-in,;
+  transition: transform 0.3s ease;
   container: none;
   position: relative;
-  top: 0;
-  transition: top ease 0.5s;
+ 
 }
 
 .button:hover{
   background-color:  #7ac664;
   container: none;
-  top: -10px; 
+  transform: scale(1.1);
 }
+
 
 
 
@@ -457,21 +458,27 @@ textarea {
 }
 
 .submit-btn {
-  background-color: #4CAF50;
-  color: white;
+  background-color: #9ae17b;
   border: none;
-  padding: 12px 20px;
+  color: #3c6e57;
+  padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  border-radius: 5px;
+  margin: 4px 2px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  border-radius: 10px;
+  transition: background-color 0.2s ease-in,;
+  transition: transform 0.3s ease;
+  container: none;
+  position: relative;
 }
 
 .submit-btn:hover {
   background-color: #45a049;
+  container: none;
+  transform: scale(1.03);
 }
 
 .card {
@@ -479,7 +486,7 @@ textarea {
   overflow: hidden;
 }
 
-.image-container{
+.image-container {
   border: 1px;
   border-color: #e6f18c;
 }
@@ -491,9 +498,7 @@ textarea {
 
 .card:hover img {
   transform: scale(1.1);
-  filter: brightness(1);
 }
-
 
 .card .card-img-overlay {
   position: absolute;
@@ -512,7 +517,14 @@ textarea {
   text-align: center;
 }
 
-.card:hover .card-img-overlay {
-  opacity: 0.54; 
+.card .text-border {
+  background-color:none;
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease-in;
 }
+
+.card:hover .text-border {
+  border-color: #9ae17b;
+}
+
 
